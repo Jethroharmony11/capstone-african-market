@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout page</title>
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">African Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="./registration.html">register</a>
+                <a class="nav-link" href="./login.html">login</a>
+                <a class="nav-link" href="./product.html">products</a>
+              <a class="nav-link" href="./cart.html">cart</a>
+              
+            </div>
+          </div>
+        </div>
+    </nav>
+    </style>
+  </head>
+  <body>
+    <h1>Checkout Page</h1>
+   
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required maxlength="50">
+     
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required maxlength="50">
+     
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required maxlength="100">
+     
+      <label for="payment">Payment Method:</label>
+      <select id="payment" name="payment">
+        <option value="credit">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="cash">Cash on Delivery</option>
+      </select>
+     
+      <input type="submit" value="Place Order">
+    </form>
+   
+    <h2>Cart Items</h2>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Item 1</td>
+        <td>$10</td>
+      </tr>
+      <tr></tr>
+        <td>Item 2
+        <td>$15</td>
+      </tr>
+      <tr>
+        <td>Item 3</td>
+        <td>$12.99</td>
+      </tr>
+    </table>
+  </body>
+  </html>
+   
+</body>
+</html>
