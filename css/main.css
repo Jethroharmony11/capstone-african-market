@@ -1,5 +1,5 @@
 body{
-     background-color: white(225, 165, 0);
+     background-color: grid-template-columns(225, 165, 0);
 }
 .cart{
     width: 30vw;
